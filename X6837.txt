@@ -1,1 +1,22 @@
+Infinity X v3.12 Changelog (since 10/08/2026)
 
+- Bump Android Security Patch Level to August 2026
+- Implement iOS-style Dynamic Island feature
+- Introduce Real-time lyrics card in dynamic bar for music playing (grepfox)
+- Implement Real-time lyrics for music playing on lockscreen
+- Fix Android/data folder storage access/null-creation issues for devices that use TWRP / older version OrangeFox recovery for flashing instead AOSP/Infinity-X recovery (cevente)
+- Use MD3 variable fonts across more different parts of UI, Launcher, Settings
+- Add one-time hotspot data sharing limit (beingashwani)
+- Add optional compact circle style for dynamic bar (Ghosuto)
+- Fix notification shelf transparency when translucent ls notifications enabled
+- Fix some constant CPU overhead and log spam on older kernel devices
+- Fix some custom rom hide sysprop | crash issues (rmp22)
+- Ensure only json files are imported in import Pif json preference
+- Fix some truncation issues for more clock styles
+- Improve launcher custom color picker dialog layout
+- fixed system_server → unusually high CPU
+- fixed Fingerprint-related process/service → high CPU
+- fixed vibration
+- fixed hwservicemanager → extremely frequent logs, roughly every 0.5 s
+- fixed Gaming performance becomes unstable
+- fixed Reducing background/foreground process limits makes gaming smooth (But doing that causes fingerprint functionality/service to crash)
